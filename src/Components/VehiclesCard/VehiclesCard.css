@@ -1,0 +1,32 @@
+img {
+   width:  60%;
+}
+.cards {
+    background-color: white;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.cards h4 {
+    font-weight: bold;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.cards:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .cards img {
+        width:  30%;
+     }
+     .cards {
+        width: 300px;
+     }
+}

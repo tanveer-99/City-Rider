@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.home {
+    height: 100vh;
+    background-image: url('../../images/Bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vehicles-card {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+@media (max-width: 500px) {
+    .home {
+        height: 200vh;
+        
+    }
+}
+@media (min-width: 580px) and (max-width: 768px) {
+    .home {
+        height: 120vh;
+    }
+}

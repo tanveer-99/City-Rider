@@ -1,0 +1,20 @@
+nav a{
+    font-size: 1rem  !important;
+    font-weight: 600;
+    margin-right: 5px;
+}
+nav button {
+    background-color: #FF6E40;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+}
+nav button:hover {
+    color: black;
+}
+.brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}

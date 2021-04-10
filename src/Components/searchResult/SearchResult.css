@@ -1,0 +1,42 @@
+.route {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FF6E40;
+    width: 185px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.route p {
+    font-size: 1rem  !important;
+    display: inline;
+    margin-bottom: 0;
+}
+.vehicle-info img {
+    width: 25%;
+}
+.vehicle-info p {
+    margin-top: 10px;
+}
+.vehicle-info .people {
+    width: 20%;
+}
+.vehicle-info {
+    width: 185px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+.route .line {
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    display: inline;
+    border-radius: 50%;
+}
